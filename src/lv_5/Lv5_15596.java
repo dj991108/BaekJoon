@@ -9,6 +9,6 @@ public class Lv5_15596 {
 			ans += a[i];
 		}
 		return ans;
-		// int num : a  --> 반복조건 고려
+		// int num : a  --> 반복조건 고려 !!
 	}
 }
