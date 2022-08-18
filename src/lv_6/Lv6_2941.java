@@ -13,6 +13,9 @@ public class Lv6_2941 {
 		
 		int count=0;
 		
+		String[] cro = {"c=","c-","dz=","d-","lj","nj","s=","z="};
+		
+		/*
 		if(alpha.contains("c=")) { count++; }
 		if(alpha.contains("c-")) { count++; }
 		if(alpha.contains("dz=")) { count++; }
@@ -21,6 +24,7 @@ public class Lv6_2941 {
 		if(alpha.contains("nj")) { count++; }
 		if(alpha.contains("s=")) { count++; }
 		if(alpha.contains("z=")) { count++; }
+		*/
 		
 		return count;
 		
