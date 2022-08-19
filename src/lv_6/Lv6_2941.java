@@ -6,15 +6,14 @@ public class Lv6_2941 {
 	
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.println(Croatia(s.next()));
+		// System.out.println(Croatia(s.next()));
 	}
 	
 	public static int Croatia(String alpha) {
 		
 		int count=0;
 		
-		String[] cro = {"c=","c-","dz=","d-","lj","nj","s=","z="};
-		
+		String[] cro = {"c=","c-","dz=","d-","lj","nj","s=","z="};	
 		/*
 		if(alpha.contains("c=")) { count++; }
 		if(alpha.contains("c-")) { count++; }
@@ -25,6 +24,11 @@ public class Lv6_2941 {
 		if(alpha.contains("s=")) { count++; }
 		if(alpha.contains("z=")) { count++; }
 		*/
+		
+		for(int i=0; i<alpha.length(); i++) {
+			
+			
+		}
 		
 		return count;
 		
