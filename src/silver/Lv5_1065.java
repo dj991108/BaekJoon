@@ -1,4 +1,4 @@
-package lv_5;
+package silver;
 
 import java.util.Scanner;
 

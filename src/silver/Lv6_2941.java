@@ -1,4 +1,4 @@
-package lv_6;
+package silver;
 import java.util.Scanner;
 
 public class Lv6_2941 {

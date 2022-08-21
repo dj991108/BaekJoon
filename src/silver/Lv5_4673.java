@@ -1,4 +1,4 @@
-package lv_5;
+package silver;
 
 public class Lv5_4673 {
 	

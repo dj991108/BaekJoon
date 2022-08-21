@@ -1,4 +1,4 @@
-package lv_5;
+package bronze;
 
 public class Lv5_15596 {
 
