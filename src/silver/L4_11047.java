@@ -1,32 +1,27 @@
 package silver;
 
+import java.util.Scanner;
+
 public class L4_11047 {
 
-	
 	public static void main(String[] args) {
 		
-		int K = 4750;
-		int N = 3;
-		int count = 0; 
+		Scanner s = new Scanner(System.in);
 		int sum = 0;
-		// 인덱스 수정
-		int[] money = {50000,10000,5000,1000,500,100,50,10,5,1}; // index 0~9
 		// N, K 입력
-		for(int i=N-1; i>=0 ; i--) {
-			System.out.println(money[i]);
+		int N = s.nextInt();
+		int K = s.nextInt();
+		int[] money = new int[N]; // index 0~9
+		
+		for(int i=0; i <N; i++) {
+			money[i] = s.nextInt();
 		}
-		while(true) {
-			if( K > money[count]) {
-				break;
+		for(int i=N-1; i>=0; i--) {
+			if(K>=money[i]) {
+				sum += K / money[i];
+				K %= money[i];
 			}
-			count++;
-		}
-		while(K>0) {	
-				sum += K / money[count];
-				K %= money[count];
-				count++;
 		}
 		System.out.println(sum);
 	}
-
 }
