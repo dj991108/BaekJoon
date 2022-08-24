@@ -11,7 +11,7 @@ public class L4_11047 {
 		// N, K 입력
 		int N = s.nextInt();
 		int K = s.nextInt();
-		int[] money = new int[N]; // index 0~9
+		int[] money = new int[N];
 		
 		for(int i=0; i <N; i++) {
 			money[i] = s.nextInt();
