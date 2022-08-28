@@ -2,7 +2,7 @@ package silver;
 
 import java.util.Scanner;
 
-public class Lv5_1065 {
+public class L4_1065 {
 
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
