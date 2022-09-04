@@ -11,30 +11,33 @@ public class L2_16953 {
 		int B = s.nextInt();
 		int count=0;
 		
-		while(B!=A) {
+		while(true) {
 			
-			if(B%A==0 || B%10==1) { //오류
+			if(B%2==0 || B%10==1) {
 				if(B%2 == 0) {
 					B = B/2;
 					count++;
+					if(B==A) break;
+					if(B<A) {
+						count = -2;
+						break;
+					}
 				}
 				else if(B%10 == 1) {
 					B = B-1;
 					B = B/10;
 					count++;
+					if(B==A) break;
+					if(B<A) {
+						count = -2;
+						break;
+					}
 				}
 			}
 			else {
 				count = -2;
 				break;
 			}
-			
-			/*
-			if(B<=0){
-				count = -2;
-				break;
-			}
-			*/
 		}
 		System.out.println(count+1);
 	}
