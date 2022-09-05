@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class L2_16953 {
 
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+		Scanner ss = new Scanner(System.in);
 		
-		int A = s.nextInt();
-		int B = s.nextInt();
+		int A = ss.nextInt();
+		int B = ss.nextInt();
 		int count=0;
 		
 		while(true) {
@@ -39,6 +39,6 @@ public class L2_16953 {
 				break;
 			}
 		}
-		System.out.println(count+1);
+		System.out.println(count+1); 
 	}
 }
