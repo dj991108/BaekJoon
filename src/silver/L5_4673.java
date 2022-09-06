@@ -1,6 +1,6 @@
 package silver;
 
-public class Lv5_4673 {
+public class L5_4673 {
 	
 	public static int d(int num) {
 		int sum = num;
