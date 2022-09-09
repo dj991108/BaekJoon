@@ -14,14 +14,14 @@ public class L2_1541 {
 		Scanner s = new Scanner(System.in);
 		
 		// String 입력받은걸 char배열로 변환
-		String Eq = s.next(); // next? nextLine?
+		String Eq = s.next();
 		
 		List<Character> fw = new ArrayList<>(); 
 		for(char ch: Eq.toCharArray()) {
 			fw.add(ch);
 		}
 		
-		int count =0;
+		int count = 0;
 		while(true) {
 			if(fw.get(count).equals('-')) {
 				fw.add(count+1, '(');
