@@ -22,6 +22,8 @@ public class L2_16953 {
 						count = -2;
 						break;
 					}
+					
+					
 				}
 				else if(B%10 == 1) {
 					B = B-1;
