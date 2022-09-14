@@ -2,7 +2,7 @@ package silver;
 
 public class L5_4673 {
 	
-	public static int d(int num) {
+	public static int D(int num) {
 		int sum = num;
 		
 		while(num !=0) {
@@ -14,7 +14,7 @@ public class L5_4673 {
 	
 	public static void check(int c[]) {
 		for(int i=1 ; i<=c.length; i++) {
-			int n = d(i);
+			int n = D(i);
 			
 			if(n < c.length) {
 				c[n] = -1;
