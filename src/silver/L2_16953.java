@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class L2_16953 {
 
 	public static void main(String[] args) {
-		Scanner ss = new Scanner(System.in);
+		Scanner s = new Scanner(System.in);
 		
-		int A = ss.nextInt();
-		int B = ss.nextInt();
+		int A = s.nextInt();
+		int B = s.nextInt();
 		int count=0;
 		
 		while(true) {
