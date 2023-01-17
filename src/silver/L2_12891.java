@@ -11,7 +11,7 @@ public class L2_12891 {
 		
 		String DNA = s.next();
 		
-		String A = s.
+		String A = 
 
 		
 	}
