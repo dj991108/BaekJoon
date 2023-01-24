@@ -19,7 +19,7 @@ public class L5_2751 {
 		for(int i = 0; i < N; i++) {
 			list.add(in.nextInt());
 		}
-		
+		//Collections 패키지 사용
 		Collections.sort(list);
 		
 		for(int value : list) {
@@ -28,4 +28,4 @@ public class L5_2751 {
 		System.out.println(sb);
 	}
 
-}
+} 
