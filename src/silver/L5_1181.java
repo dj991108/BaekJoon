@@ -26,7 +26,7 @@ public class L5_1181 {
 				if (s1.length() == s2.length()) {
 					return s1.compareTo(s2);
 				} 
-				// 그 외의 경우 
+				// 그 외
 				else {
 					return s1.length() - s2.length();
 				}
